@@ -1,0 +1,7 @@
+#status-bar {
+  display: flex;
+}
+
+.status-bar___column span {
+  justify-content: space-evenly;
+}
