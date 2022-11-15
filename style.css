@@ -1,7 +1,0 @@
-#status-bar {
-  display: flex;
-}
-
-.status-bar__column {
-  justify-content: space-evenly;
-}

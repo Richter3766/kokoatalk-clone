@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>KOKOATALK-CLONE</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
@@ -24,6 +24,20 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+
+    <header>
+      <h1>Welcome to KoKoaTalk</h1>
+      <p>
+        If you have a KoKoa Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a href="#">Find KoKoa Account or Password</a>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/b7414817c8.js"
