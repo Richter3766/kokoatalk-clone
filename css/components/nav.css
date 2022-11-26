@@ -1,0 +1,14 @@
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(147, 147, 147, 0.1);
+
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+
+  bottom: 0%;
+}
