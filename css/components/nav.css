@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgba(147, 147, 147, 0.1);
 
@@ -11,4 +10,38 @@
   box-sizing: border-box;
 
   bottom: 0%;
+}
+
+.nav__a {
+  position: relative;
+}
+.nav__notification {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__dot {
+  display: flex;
+  background-color: tomato;
+
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+
+  position: absolute;
+  left: 30px;
 }
