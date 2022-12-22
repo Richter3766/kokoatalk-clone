@@ -1,0 +1,15 @@
+.screen-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.screen-bar__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-bar__icons span {
+  margin-left: 30px;
+}
